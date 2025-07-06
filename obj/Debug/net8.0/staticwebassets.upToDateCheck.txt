@@ -1,5 +1,11 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\flags\AustriaFlag.png
+wwwroot\flags\BrazilFlag.png
+wwwroot\flags\CanadaFlag.png
+wwwroot\flags\ChinaFlag.webp
+wwwroot\flags\FinlandFlag.png
+wwwroot\flags\FranceFlag.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

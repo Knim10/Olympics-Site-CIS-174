@@ -10,6 +10,14 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<OlympicsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("OlympicsDB")));
 
+// Add Session
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,10 +32,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// Enable session BEFORE authorization
+app.UseSession();
+
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Sports}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

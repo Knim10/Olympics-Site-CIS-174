@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\flags\\AustriaFlag.png",
+      "PackagePath": "staticwebassets\\flags\\AustriaFlag.png"
+    },
+    {
+      "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\flags\\BrazilFlag.png",
+      "PackagePath": "staticwebassets\\flags\\BrazilFlag.png"
+    },
+    {
+      "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\flags\\CanadaFlag.png",
+      "PackagePath": "staticwebassets\\flags\\CanadaFlag.png"
+    },
+    {
+      "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\flags\\ChinaFlag.webp",
+      "PackagePath": "staticwebassets\\flags\\ChinaFlag.webp"
+    },
+    {
+      "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\flags\\FinlandFlag.png",
+      "PackagePath": "staticwebassets\\flags\\FinlandFlag.png"
+    },
+    {
+      "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\flags\\FranceFlag.png",
+      "PackagePath": "staticwebassets\\flags\\FranceFlag.png"
+    },
+    {
       "Id": "E:\\CIS 174\\OlympicGamesSite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

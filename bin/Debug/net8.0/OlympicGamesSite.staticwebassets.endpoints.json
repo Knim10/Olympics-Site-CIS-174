@@ -249,6 +249,498 @@
       ]
     },
     {
+      "Route": "flags/AustriaFlag.png",
+      "AssetFile": "flags/AustriaFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0AiuZuCkhg574fPVNlTH8q/nSE0wg1VIJ4wxrSGhns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:28:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0AiuZuCkhg574fPVNlTH8q/nSE0wg1VIJ4wxrSGhns="
+        }
+      ]
+    },
+    {
+      "Route": "flags/AustriaFlag.z7i2srhivh.png",
+      "AssetFile": "flags/AustriaFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0AiuZuCkhg574fPVNlTH8q/nSE0wg1VIJ4wxrSGhns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:28:41 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z7i2srhivh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0AiuZuCkhg574fPVNlTH8q/nSE0wg1VIJ4wxrSGhns="
+        },
+        {
+          "Name": "label",
+          "Value": "flags/AustriaFlag.png"
+        }
+      ]
+    },
+    {
+      "Route": "flags/BrazilFlag.png",
+      "AssetFile": "flags/BrazilFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nme419tmNP5H9mzACSDNl4/Sa0E+DDEVhLZoV9cEVVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:29:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nme419tmNP5H9mzACSDNl4/Sa0E+DDEVhLZoV9cEVVI="
+        }
+      ]
+    },
+    {
+      "Route": "flags/BrazilFlag.ueuliayw9o.png",
+      "AssetFile": "flags/BrazilFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nme419tmNP5H9mzACSDNl4/Sa0E+DDEVhLZoV9cEVVI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:29:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ueuliayw9o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nme419tmNP5H9mzACSDNl4/Sa0E+DDEVhLZoV9cEVVI="
+        },
+        {
+          "Name": "label",
+          "Value": "flags/BrazilFlag.png"
+        }
+      ]
+    },
+    {
+      "Route": "flags/CanadaFlag.png",
+      "AssetFile": "flags/CanadaFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lm1idd8DUD/VtU1YJFuACsSg9FgB3oACVH/plV+iW+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:29:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lm1idd8DUD/VtU1YJFuACsSg9FgB3oACVH/plV+iW+E="
+        }
+      ]
+    },
+    {
+      "Route": "flags/CanadaFlag.ut6pcqjtgy.png",
+      "AssetFile": "flags/CanadaFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lm1idd8DUD/VtU1YJFuACsSg9FgB3oACVH/plV+iW+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:29:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ut6pcqjtgy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lm1idd8DUD/VtU1YJFuACsSg9FgB3oACVH/plV+iW+E="
+        },
+        {
+          "Name": "label",
+          "Value": "flags/CanadaFlag.png"
+        }
+      ]
+    },
+    {
+      "Route": "flags/ChinaFlag.tqx0lcb4ut.webp",
+      "AssetFile": "flags/ChinaFlag.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1T9bN/9uyo0G1dfkAjeb76LmZk+OLgrGo1JJt7Orb5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:29:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tqx0lcb4ut"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1T9bN/9uyo0G1dfkAjeb76LmZk+OLgrGo1JJt7Orb5Y="
+        },
+        {
+          "Name": "label",
+          "Value": "flags/ChinaFlag.webp"
+        }
+      ]
+    },
+    {
+      "Route": "flags/ChinaFlag.webp",
+      "AssetFile": "flags/ChinaFlag.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1T9bN/9uyo0G1dfkAjeb76LmZk+OLgrGo1JJt7Orb5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:29:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1T9bN/9uyo0G1dfkAjeb76LmZk+OLgrGo1JJt7Orb5Y="
+        }
+      ]
+    },
+    {
+      "Route": "flags/FinlandFlag.aoo7zyff9f.png",
+      "AssetFile": "flags/FinlandFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VgzDUDM6KL7UQQe047m1WB8CXdKNg8V5ukcBem8hV58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:30:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aoo7zyff9f"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VgzDUDM6KL7UQQe047m1WB8CXdKNg8V5ukcBem8hV58="
+        },
+        {
+          "Name": "label",
+          "Value": "flags/FinlandFlag.png"
+        }
+      ]
+    },
+    {
+      "Route": "flags/FinlandFlag.png",
+      "AssetFile": "flags/FinlandFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VgzDUDM6KL7UQQe047m1WB8CXdKNg8V5ukcBem8hV58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:30:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VgzDUDM6KL7UQQe047m1WB8CXdKNg8V5ukcBem8hV58="
+        }
+      ]
+    },
+    {
+      "Route": "flags/FranceFlag.5rse890hdt.png",
+      "AssetFile": "flags/FranceFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZUK3GrF6MMHa6Rke7qeTEAHVH40xlLToP6/6toUEik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:30:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rse890hdt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZUK3GrF6MMHa6Rke7qeTEAHVH40xlLToP6/6toUEik="
+        },
+        {
+          "Name": "label",
+          "Value": "flags/FranceFlag.png"
+        }
+      ]
+    },
+    {
+      "Route": "flags/FranceFlag.png",
+      "AssetFile": "flags/FranceFlag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZUK3GrF6MMHa6Rke7qeTEAHVH40xlLToP6/6toUEik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 04:30:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZUK3GrF6MMHa6Rke7qeTEAHVH40xlLToP6/6toUEik="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js",
       "Selectors": [],

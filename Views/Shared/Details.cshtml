@@ -1,0 +1,14 @@
+﻿@model OlympicGamesSite.Models.Sport
+
+<h2>@Model.Country - @Model.SportName</h2>
+<p>Game: @Model.Game</p>
+<p>Category: @Model.Category</p>
+
+<form asp-action="AddToFavorites" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit">Add to Favorites</button>
+</form>
+
+<p>
+    <a asp-action="Index" asp-controller="Home">Return to Home</a>
+</p>

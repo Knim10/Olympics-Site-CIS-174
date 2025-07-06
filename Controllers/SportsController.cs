@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OlympicGamesSite.Data;
+using OlympicGamesSite.Helpers;
 
 namespace OlympicGamesSite.Controllers
 {
@@ -31,6 +32,21 @@ namespace OlympicGamesSite.Controllers
             ViewBag.CategoryFilter = categoryFilter;
 
             return View(sports);
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var sport = await _context.Sports.FindAsync(id);
+            if (sport == null) return NotFound();
+
+            return View(sport);
+        }
+
+        [HttpPost]
+        public IActionResult AddToFavorites(int id)
+        {
+            FavoriteManager.AddFavorite(HttpContext.Session, id);
+            return RedirectToAction("Index", "Favorites");
         }
     }
 }
