@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Sport>
+
+@{
+    ViewData["Title"] = "Olympic Games";
+}
+
+<div style="display: flex;">
+    <aside style="width: 200px; padding: 10px;">
+        <h4>Filter by Game</h4>
+        <ul>
+            <li><a href="@Url.Action("Index", new { gameFilter = "ALL", categoryFilter = ViewBag.CategoryFilter })">ALL</a></li>
+            @foreach (var game in ViewBag.Games as List<string>)
+            {
+                <li><a href="@Url.Action("Index", new { gameFilter = game, categoryFilter = ViewBag.CategoryFilter })">@game</a></li>
+            }
+        </ul>
+
+        <h4>Filter by Category</h4>
+        <ul>
+            <li><a href="@Url.Action("Index", new { gameFilter = ViewBag.GameFilter, categoryFilter = "ALL" })">ALL</a></li>
+            @foreach (var cat in ViewBag.Categories as List<string>)
+            {
+                <li><a href="@Url.Action("Index", new { gameFilter = ViewBag.GameFilter, categoryFilter = cat })">@cat</a></li>
+            }
+        </ul>
+    </aside>
+
+    <main style="flex:1; display: flex; flex-wrap: wrap;">
+        @foreach (var sport in Model)
+        {
+            <div style="margin: 10px;">
+                <img src="~/flags/@(sport.Country.Replace(" ", ""))Flag.png"
+                     alt="@sport.Country"
+                     title="@sport.Country - @sport.Game - @sport.Category"
+                     style="width: 100px; height: 60px;" />
+            </div>
+        }
+    </main>
+</div>
