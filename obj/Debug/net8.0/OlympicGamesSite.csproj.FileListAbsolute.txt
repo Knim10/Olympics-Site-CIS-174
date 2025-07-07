@@ -169,6 +169,6 @@ E:\CIS 174\OlympicGamesSite\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.
 E:\CIS 174\OlympicGamesSite\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\CIS 174\OlympicGamesSite\obj\Debug\net8.0\OlympicGamesSite.csproj.AssemblyReference.cache
 E:\CIS 174\OlympicGamesSite\obj\Debug\net8.0\OlympicG.1BDA625A.Up2Date
-E:\CIS 174\OlympicGamesSite\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\CIS 174\OlympicGamesSite\obj\Debug\net8.0\OlympicGamesSite.sourcelink.json
 E:\CIS 174\OlympicGamesSite\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\CIS 174\OlympicGamesSite\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

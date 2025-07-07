@@ -38,6 +38,11 @@ app.UseSession();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "home",
+    pattern: "Olympic/{action=Index}/{id?}",
+    defaults: new { controller = "Home" });
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 

@@ -1,12 +1,26 @@
-﻿@{
+﻿@model HomeIndexViewModel
+
+@{
     ViewData["Title"] = "Home";
 }
 
-<h2>Welcome to the Olympic Games Site</h2>
+<h2>Welcome to Olympic Games</h2>
 
-<p>
-    <a href="@Url.Action("Index", "Sports")">View Sports</a>
-</p>
-<p>
-    <a href="@Url.Action("Index", "Favorites")">View Favorites</a>
-</p>
+<p>Use the links below to explore:</p>
+
+<ul>
+    <li>
+        <a asp-controller="Sports" asp-action="Index" asp-route-gameFilter="@Model.GameFilter" asp-route-categoryFilter="@Model.CategoryFilter">
+            View Sports
+        </a>
+    </li>
+    <li>
+        <a asp-controller="Favorites" asp-action="Index">View Favorites</a>
+    </li>
+    <li>
+        <a asp-controller="Ticket" asp-action="Index">View Tickets</a>
+    </li>
+</ul>
+
+<hr />
+

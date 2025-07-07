@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OlympicGamesSite.Models;
 
 namespace OlympicGamesSite.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(HomeIndexViewModel vm)
         {
-            return View();
+            return View(vm);
         }
     }
 }

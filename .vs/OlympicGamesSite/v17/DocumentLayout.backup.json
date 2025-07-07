@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "E:\\CIS 174\\OlympicGamesSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\ticket\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\ticket\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\ticket\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\ticket\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\models\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:models\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\data\\olympicsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:data\\olympicsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\shared\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\controllers\\sportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:controllers\\sportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:helpers\\favoritemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\models\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:models\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|e:\\cis 174\\olympicgamessite\\data\\olympicsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E8E8A09-C2C5-4C8B-9203-DED37E82CC19}|OlympicGamesSite.csproj|solutionrelative:data\\olympicsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,37 +86,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-06T04:22:37.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "delete.cshtml",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\delete.cshtml",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\delete.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:54:31.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "edit.cshtml",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\edit.cshtml",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\edit.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:54:17.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T00:38:22.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T00:37:00.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-06T04:22:19.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Favorites\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Favorites\\Index.cshtml",
@@ -96,12 +176,11 @@
               "RelativeToolTip": "Views\\Favorites\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T04:21:59.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T04:21:59.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Shared\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Details.cshtml",
@@ -109,12 +188,11 @@
               "RelativeToolTip": "Views\\Shared\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T04:21:38.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T04:21:38.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "FavoritesController.cs",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Controllers\\FavoritesController.cs",
               "RelativeDocumentMoniker": "Controllers\\FavoritesController.cs",
@@ -122,12 +200,11 @@
               "RelativeToolTip": "Controllers\\FavoritesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T04:21:07.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T04:21:07.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "FavoriteManager.cs",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Helpers\\FavoriteManager.cs",
               "RelativeDocumentMoniker": "Helpers\\FavoriteManager.cs",
@@ -135,25 +212,24 @@
               "RelativeToolTip": "Helpers\\FavoriteManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T04:20:06.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T04:20:06.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Shared\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Index.cshtml",
               "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Views\\Shared\\Index.cshtml",
               "RelativeToolTip": "Views\\Shared\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCQAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-06T03:38:33.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "SportsController.cs",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Controllers\\SportsController.cs",
               "RelativeDocumentMoniker": "Controllers\\SportsController.cs",
@@ -161,12 +237,11 @@
               "RelativeToolTip": "Controllers\\SportsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T03:38:05.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T03:38:05.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -179,15 +254,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-06T03:36:02.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\Index.cshtml",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:38:40.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeIndexViewModel.cs",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Models\\HomeIndexViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeIndexViewModel.cs",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Models\\HomeIndexViewModel.cs",
+              "RelativeToolTip": "Models\\HomeIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T00:35:49.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ticket\\Create.cshtml",
+              "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Views\\Ticket\\Create.cshtml",
+              "RelativeToolTip": "Views\\Ticket\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:38:51.405Z",
               "EditorCaption": ""
             },
             {
@@ -198,13 +312,14 @@
               "RelativeDocumentMoniker": "Data\\OlympicsDbContext.cs",
               "ToolTip": "E:\\CIS 174\\OlympicGamesSite\\Data\\OlympicsDbContext.cs",
               "RelativeToolTip": "Data\\OlympicsDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBQAAACFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T03:35:21.885Z"
+              "WhenOpened": "2025-07-06T03:35:21.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Sport.cs",
               "DocumentMoniker": "E:\\CIS 174\\OlympicGamesSite\\Models\\Sport.cs",
               "RelativeDocumentMoniker": "Models\\Sport.cs",

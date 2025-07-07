@@ -11,6 +11,8 @@ namespace OlympicGamesSite.Data
             : base(options) { }
 
         public DbSet<Sport> Sports { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
