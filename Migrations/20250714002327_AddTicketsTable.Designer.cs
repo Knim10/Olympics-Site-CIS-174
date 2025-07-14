@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OlympicGamesSite.Data;
 
@@ -10,9 +11,11 @@ using OlympicGamesSite.Data;
 namespace OlympicGamesSite.Migrations
 {
     [DbContext(typeof(OlympicsDbContext))]
-    partial class OlympicsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250714002327_AddTicketsTable")]
+    partial class AddTicketsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
