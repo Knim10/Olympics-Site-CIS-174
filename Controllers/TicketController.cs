@@ -4,16 +4,16 @@ using OlympicGamesSite.Models;
 
 public class TicketController : Controller
 {
-    private readonly OlympicsDbContext _context;
+    private readonly ITicketRepository _repo;
 
-    public TicketController(OlympicsDbContext context)
+    public TicketController(ITicketRepository repo)
     {
-        _context = context;
+        _repo = repo;
     }
 
     public IActionResult Index()
     {
-        var tickets = _context.Tickets.ToList();
+        var tickets = _repo.GetAll();
         return View(tickets);
     }
 
@@ -28,8 +28,8 @@ public class TicketController : Controller
     {
         if (ModelState.IsValid)
         {
-            _context.Tickets.Add(ticket);
-            _context.SaveChanges();
+            _repo.Add(ticket);
+            _repo.Save();
             return RedirectToAction("Index");
         }
         return View(ticket);
@@ -38,7 +38,7 @@ public class TicketController : Controller
     [HttpGet]
     public IActionResult Edit(int id)
     {
-        var ticket = _context.Tickets.Find(id);
+        var ticket = _repo.Get(id);
         if (ticket == null) return NotFound();
         return View(ticket);
     }
@@ -48,8 +48,8 @@ public class TicketController : Controller
     {
         if (ModelState.IsValid)
         {
-            _context.Tickets.Update(ticket);
-            _context.SaveChanges();
+            _repo.Update(ticket);
+            _repo.Save();
             return RedirectToAction("Index");
         }
         return View(ticket);
@@ -58,7 +58,7 @@ public class TicketController : Controller
     [HttpGet]
     public IActionResult Delete(int id)
     {
-        var ticket = _context.Tickets.Find(id);
+        var ticket = _repo.Get(id);
         if (ticket == null) return NotFound();
         return View(ticket);
     }
@@ -66,11 +66,11 @@ public class TicketController : Controller
     [HttpPost, ActionName("Delete")]
     public IActionResult DeleteConfirmed(int id)
     {
-        var ticket = _context.Tickets.Find(id);
+        var ticket = _repo.Get(id);
         if (ticket == null) return NotFound();
 
-        _context.Tickets.Remove(ticket);
-        _context.SaveChanges();
+        _repo.Delete(id);
+        _repo.Save();
         return RedirectToAction("Index");
     }
 }

@@ -10,6 +10,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<OlympicsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("OlympicsDB")));
 
+// Add Ticket repository for DI
+builder.Services.AddScoped<ITicketRepository, TicketRepository>();
+
 // Add Session
 builder.Services.AddSession(options =>
 {
