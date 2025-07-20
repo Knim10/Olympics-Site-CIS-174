@@ -20,8 +20,9 @@ public class TicketController : Controller
     [HttpGet]
     public IActionResult Create()
     {
-        return View();
+        return View(new Ticket());
     }
+
 
     [HttpPost]
     public IActionResult Create(Ticket ticket)

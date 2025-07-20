@@ -1,48 +1,90 @@
 ﻿@model Ticket
 
+@{
+    ViewData["Title"] = "Create Ticket";
+}
+
 <h2>Create Ticket</h2>
 
-<form asp-action="Create">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<form asp-action="Create" id="createForm" class="needs-validation" novalidate>
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
-    <div>
-        <label asp-for="Name"></label>
-        <input asp-for="Name" />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="Description"></label>
-        <input asp-for="Description" />
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <input asp-for="Description" class="form-control" />
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    <div>
-        <label asp-for="SprintNumber"></label>
-        <input asp-for="SprintNumber" />
-        <span asp-validation-for="SprintNumber" class="text-danger"></span>
+    <div class="row mb-3">
+        <div class="col">
+            <label asp-for="SprintNumber" class="form-label"></label>
+            <input asp-for="SprintNumber" class="form-control" />
+            <span asp-validation-for="SprintNumber" class="text-danger"></span>
+        </div>
+        <div class="col">
+            <label asp-for="PointValue" class="form-label"></label>
+            <input asp-for="PointValue" class="form-control" />
+            <span asp-validation-for="PointValue" class="text-danger"></span>
+        </div>
     </div>
 
-    <div>
-        <label asp-for="PointValue"></label>
-        <input asp-for="PointValue" />
-        <span asp-validation-for="PointValue" class="text-danger"></span>
-    </div>
-
-    <div>
-        <label asp-for="Status"></label>
-        <select asp-for="Status">
-            <option>To Do</option>
-            <option>In Progress</option>
-            <option>QA</option>
-            <option>Done</option>
-        </select>
+    <div class="mb-3">
+        <label>Status</label>
+        <input type="hidden" asp-for="Status" id="statusField" value="@(!string.IsNullOrEmpty(Model.Status) ? Model.Status : "To Do")" />
+        <vc:ticket-status current-status="@(!string.IsNullOrEmpty(Model.Status) ? Model.Status : "To Do")"></vc:ticket-status>
         <span asp-validation-for="Status" class="text-danger"></span>
     </div>
 
-    <button type="submit">Save</button>
+    <submit-button text="Save Ticket" css-class="btn btn-success"></submit-button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
 </form>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const statusField = document.getElementById("statusField");
+            const buttons = document.querySelectorAll(".status-button");
+
+            // Initialize correct button highlight
+            buttons.forEach(btn => {
+                if (btn.dataset.status === statusField.value) {
+                    btn.classList.remove("btn-outline-secondary");
+                    btn.classList.add("btn-primary");
+                }
+            });
+
+            buttons.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    buttons.forEach(b => b.classList.remove("btn-primary"));
+                    buttons.forEach(b => b.classList.add("btn-outline-secondary"));
+
+                    btn.classList.remove("btn-outline-secondary");
+                    btn.classList.add("btn-primary");
+
+                    statusField.value = btn.dataset.status;
+                });
+            });
+        });
+        document.getElementById('createForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+
+            fetch(e.target.action, {
+                method: 'POST',
+                body: formData
+            }).then(res => res.text())
+              .then(html => {
+                  document.body.innerHTML = html;
+              });
+        });
+
+    </script>
 }

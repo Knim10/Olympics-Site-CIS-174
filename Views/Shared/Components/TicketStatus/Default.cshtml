@@ -1,0 +1,12 @@
+﻿@model List<string>
+@{
+    string currentStatus = ViewBag.CurrentStatus as string ?? "";
+}
+
+<div class="btn-group">
+    @foreach (var status in Model)
+    {
+        var btnClass = status == currentStatus ? "btn btn-primary status-button" : "btn btn-outline-secondary status-button";
+        <button type="button" class="@btnClass" data-status="@status">@status</button>
+    }
+</div>
