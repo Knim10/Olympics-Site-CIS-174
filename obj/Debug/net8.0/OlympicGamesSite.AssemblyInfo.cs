@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OlympicGamesSite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8aaf985373b8a0dd5e5571b10dc4a5879f2f02d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3846a4ec3232850e1e9dc25426ce7597af54c58a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OlympicGamesSite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OlympicGamesSite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OlympicGamesSite.Data;
 using OlympicGamesSite.Models;
 
+[Authorize]
 public class TicketController : Controller
 {
     private readonly ITicketRepository _repo;
@@ -11,6 +13,7 @@ public class TicketController : Controller
         _repo = repo;
     }
 
+    [AllowAnonymous]
     public IActionResult Index()
     {
         var tickets = _repo.GetAll();
@@ -23,8 +26,8 @@ public class TicketController : Controller
         return View(new Ticket());
     }
 
-
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public IActionResult Create(Ticket ticket)
     {
         if (ModelState.IsValid)
@@ -45,6 +48,7 @@ public class TicketController : Controller
     }
 
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public IActionResult Edit(Ticket ticket)
     {
         if (ModelState.IsValid)
@@ -56,6 +60,7 @@ public class TicketController : Controller
         return View(ticket);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpGet]
     public IActionResult Delete(int id)
     {
@@ -64,7 +69,9 @@ public class TicketController : Controller
         return View(ticket);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost, ActionName("Delete")]
+    [ValidateAntiForgeryToken]
     public IActionResult DeleteConfirmed(int id)
     {
         var ticket = _repo.Get(id);

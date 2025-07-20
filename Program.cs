@@ -1,3 +1,4 @@
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using OlympicGamesSite.Data;
 
@@ -10,10 +11,18 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<OlympicsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("OlympicsDB")));
 
-// Add Ticket repository for DI
+// Register ITicketRepository implementation
 builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 
-// Add Session
+// Add ASP.NET Core Identity
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+})
+.AddRoles<IdentityRole>() // 🔷 Required for seeding roles
+.AddEntityFrameworkStores<OlympicsDbContext>();
+
+// Add Session (optional)
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -35,18 +44,24 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// Enable session BEFORE authorization
+// Enable session and authentication
 app.UseSession();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "home",
-    pattern: "Olympic/{action=Index}/{id?}",
-    defaults: new { controller = "Home" });
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+app.MapRazorPages(); // enable Identity UI pages
+
+// 🔷 Run DataSeeder
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var userManager = services.GetRequiredService<UserManager<IdentityUser>>();
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    await DataSeeder.SeedAdminAsync(userManager, roleManager);
+}
+
+await app.RunAsync();

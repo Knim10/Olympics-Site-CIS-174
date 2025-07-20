@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using OlympicGamesSite.Models;
-using System.Collections.Generic;
 
 namespace OlympicGamesSite.Data
 {
-    public class OlympicsDbContext : DbContext
+    public class OlympicsDbContext : IdentityDbContext
     {
         public OlympicsDbContext(DbContextOptions<OlympicsDbContext> options)
             : base(options) { }
@@ -13,9 +12,9 @@ namespace OlympicGamesSite.Data
         public DbSet<Sport> Sports { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Call IdentityDbContext to set up Identity tables
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Sport>().HasData(
